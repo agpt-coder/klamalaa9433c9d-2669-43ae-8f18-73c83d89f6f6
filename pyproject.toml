@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "klamala"
+version = "0.1.0"
+description = "To create a single API endpoint that takes in a string LLM prompt and returns a refined version improved by GPT-4, leveraging the tech stack provided, the following approach is taken:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "*"
+openai = "^0.18.0"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
